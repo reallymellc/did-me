@@ -15,6 +15,7 @@ The associated JSON-LD context is available at: [context/v1/context.jsonld](cont
 - Decentralized Identifiers Community Group: https://www.w3.org/community/did/
 
 
-## License & Tradrmark
+## License & Trademarks
 
-See [License](LICENSE.md) and [Trademarks](TRADEMARKS.md) for details.
+- [License](LICENSE.md) 
+- [Trademarks](TRADEMARKS.md)
