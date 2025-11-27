@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "_comment": "This file is hosted at https://really.me/ns/did-me/v1",
+
+    "id": "@id",
+    "type": "@type",
+
+    "alsoKnownAs": {
+      "@id": "https://www.w3.org/ns/activitystreams#alsoKnownAs",
+      "@type": "@id"
+    },
+
+    "currentCore": {
+      "@id": "https://really.me/ns/did-me#currentCore",
+      "@type": "https://w3id.org/security#multibase"
+    },
+
+    "hardwareBound": {
+      "@id": "https://really.me/ns/did-me#hardwareBound",
+      "@type": "xsd:boolean"
+    },
+
+    "biometricProtected": {
+      "@id": "https://really.me/ns/did-me#biometricProtected",
+      "@type": "xsd:boolean"
+    },
+
+    "userVerificationMethod": {
+      "@id": "https://really.me/ns/did-me#userVerificationMethod",
+      "@type": "xsd:string",
+      "_comment_userVerificationMethod": "Allowed values: face, fingerprint, pin, passcode, password, iris, voice, pattern, none"
+    },
+
+    "deviceModel": {
+      "@id": "https://really.me/ns/did-me#deviceModel",
+      "@type": "xsd:string"
+    },
+
+    "keyHistory": {
+      "@id": "https://really.me/ns/did-me#keyHistory",
+      "@container": "@list",
+      "@type": "https://w3id.org/security#multibase"
+    },
+
+    "updatePolicy": {
+      "@id": "https://really.me/ns/did-me#updatePolicy",
+      "@type": "@json"
+    },
+
+    "attestations": {
+      "@id": "https://really.me/ns/did-me#attestations",
+      "@container": "@set",
+      "@type": "@json"
+    },
+
+    "alg": {
+      "@id": "https://really.me/ns/did-me#alg",
+      "@type": "xsd:string"
+    },
+
+    "vm": {
+      "@id": "https://really.me/ns/did-me#vm",
+      "@type": "@id"
+    },
+
+    "sig": {
+      "@id": "https://really.me/ns/did-me#sig",
+      "@type": "https://w3id.org/security#multibase"
+    },
+
+    "prev": {
+      "@id": "https://really.me/ns/did-me#prev",
+      "@type": "https://w3id.org/security#multibase"
+    },
+
+    "sequence": {
+      "@id": "https://really.me/ns/did-me#sequence",
+      "@type": "xsd:integer"
+    },
+
+    "format": {
+      "@id": "https://really.me/ns/did-me#format",
+      "@type": "xsd:string"
+    },
+
+    "attestation": {
+      "@id": "https://really.me/ns/did-me#attestation",
+      "@type": "@json"
+    },
+
+    "proof": {
+      "@id": "https://w3id.org/security#proof",
+      "@type": "@json"
+    },
+
+    "domainVerification": {
+      "@id": "https://really.me/ns/did-me#domainVerification",
+      "@container": "@set",
+      "@type": "@json"
+    },
+
+    "DnsTxtVerification": "https://really.me/ns/did-me#DnsTxtVerification",
+    
+    "HttpsWellKnownVerification": "https://really.me/ns/did-me#HttpsWellKnownVerification"
+
+  }
+}
